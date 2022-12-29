@@ -164,16 +164,6 @@ body {
     color: purple;
   }
   
-  .hamburger {
-    border: 0;
-    background-color: transparent;
-    margin-top: 15px;
-  }
-  
-  .hamburger:focus {
-    outline: none;
-  }
-  
   .nav-bar {
     display: none;
   }
@@ -193,12 +183,7 @@ body {
     margin: 5px;
   }
   
-  @media only screen and (min-width: 500px) {
-    .hamburger {
-      display: none;
-    }
-  
-    .nav-bar {
+  .nav-bar {
       display: flex;
       justify-content: flex-end;
       list-style-type: none;
