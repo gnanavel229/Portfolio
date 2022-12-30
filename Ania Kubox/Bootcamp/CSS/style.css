@@ -1,0 +1,32 @@
+div {
+    width: 500px;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+.hero-info {
+    width: 300px;
+    height: 200px;
+    background-color: royalblue;
+}
+
+.hero-sub {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+
+.hero-info-1 {
+    width: 300px;
+    height: 200px;
+    background-color: royalblue;
+    margin: 10px; 
+    border: solid lightpink 10px;
+    border-radius: 10px;
+}
+
+.hero-sub-2 {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
