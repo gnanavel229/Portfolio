@@ -1,0 +1,125 @@
+body{
+    background-color: grey;
+    margin: 0;
+}
+
+h4{
+    color: darkturquoise;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    
+    /* Same as above */
+    
+    font: normal 20px bolder verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2em;
+    
+}
+
+
+
+.container{
+   /*  width: 960px; If we set width in px it responding or it will not adoport properly. So, setting width in %(percent) is necessary! */
+
+    width: 80%; /* When we set width in % (percent) it will respond correctly to the size of the container. */
+    margin: 0 auto;
+}
+
+.box-1{
+    background-color: black;
+    color: aqua;
+
+    /*"""""""""""""""""""""Box model""""""""""""""""""""" 
+        Padding: The space between the tag element and the border! 
+        Padding is the space inside the border.
+
+        Margin: The spacing outside the border.
+
+    
+        Different ways to specify Margin & Padding
+
+        Way 1:
+
+        p{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        Way 2:
+
+        p{
+            margin: 5px 10px 5px 10px;
+        }
+
+        Way 3:
+
+        p{
+            margin-top: 5px 10px;
+        } 
+    */
+    
+    /*Border*/ 
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+    border-right: 5px black solid;
+    border-left: 5px black solid;
+    /*Same as above*/
+    border: 5px red solid;
+
+    border-width: 10px;
+    border-bottom-width: 8px;
+    border-top-style: dotted;
+    
+    /*Padding*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /*Same as above*/
+    padding: 20px;
+
+    /*Margin*/
+    margin-top:20px;
+    margin: 40px 0;*/
+}
+
+.box-1 h2{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: normal;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+    color: greenyellow;
+}
+
+.box-2{
+    background-color: darkgreen;
+    border: 1px yellow dashed;
+    border-width: 10px;
+    padding: 5px 20px;
+    margin: 20px 0;   
+}
+
+.categories{
+    border: 2px lightcoral dotted;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    list-style-type: square;
+    padding: 5px;
+}
