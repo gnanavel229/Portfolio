@@ -11,6 +11,31 @@
         "button-name": "off"
       }
     ],
-    "disown-opener": "off"
-  }
+    "disown-opener": "off",
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "meta[name=theme-color]"
+        ]
+      }
+    ],
+    "manifest-file-extension": "off",
+    "highest-available-document-mode": "off",
+    "no-inline-styles": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 107",
+    "not firefox <= 107",
+    "not ios_saf <= 14.8",
+    "not opera <= 92"
+  ]
 }
