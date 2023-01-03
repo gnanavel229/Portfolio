@@ -1,0 +1,51 @@
+body{
+    background-color: gray;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 5px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /*???*/
+}
+
+#main-header{
+    background-color:chocolate;
+    color:white;
+    padding: 0;
+}
+
+#navbar{
+    background-color: darkgray;
+    color:white;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color:white;
+    text-decoration: none; /*???*/
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#navbar a:hover{
+    color: yellow;
+}
+
+#showcase{
+    background-image: url('images/background.jpg');
+    color: black;
+}

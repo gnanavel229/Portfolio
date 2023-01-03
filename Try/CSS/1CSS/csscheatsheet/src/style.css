@@ -196,3 +196,28 @@ a:visited{
 .clr{
     clear: both;
 }
+
+#main-block{
+    float: left;
+    width: 69.5%;
+    background-color: chocolate;
+    margin-top: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.pmainblock{
+    color: black;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: chartreuse;
+    margin-top: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Position in CSS*/
+
