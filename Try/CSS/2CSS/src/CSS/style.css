@@ -1,0 +1,34 @@
+/* Selector 
+  -> Selector are ways of grabbing and manipulating HTML.
+  -> There are several different ways to select, however they all turn out the same way.
+  -> Different selector have different application.
+
+""Selectors: The Element Selector""
+  -> You can select entire element without any special characters.
+  -> This applies to all elements with that tag name on the page.
+  -> It ranks on the bottom of the specified scale.
+
+""Selectors: The Class Selector""
+  -> This is used to select elements with a certain class name.
+  -> Can be used on any and all elements with that class name.
+  -> Can be used multiple times, and is selected with the .(dot) symbol.
+
+""Selectors: The ID Selector""
+  -> This is used to select elements with a certain ID name.
+  -> Can be used on any and all elements with that ID.
+  -> Unlike classes, it can only be used on one element at a time, and is selected with the # symbol. 
+  -> However, it can be used multiple times.
+*/
+
+.title{
+  color: brown;
+}
+
+.subtitle{
+  color: blue;
+}
+
+#contact-us{
+  color: chocolate;
+
+}
