@@ -34,7 +34,8 @@
       {
         "label": "off"
       }
-    ]
+    ],
+    "button-type": "off"
   },
   "browserslist": [
     "defaults",
