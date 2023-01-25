@@ -20,6 +20,10 @@
 
                 element > class(.) > id(#) > inline-styling
 */
+h1{
+    text-align: center;
+}
+
 h2{
     color: red;
 }
@@ -28,7 +32,7 @@ h2{
     color: blue;
 }
 
-#services{
+#services{  /*Specificity*/
     color: green;
 }
 

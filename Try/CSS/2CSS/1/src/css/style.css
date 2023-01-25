@@ -20,6 +20,10 @@
   -> However, it can be used multiple times.
 */
 
+h1{
+  text-align: center;
+}
+
 .title{
   color: brown;
 }
@@ -45,4 +49,34 @@
 
 h2:hover{
   color: red;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+#tooltip{
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div:hover #tooltip {
+  display:block;
 }
