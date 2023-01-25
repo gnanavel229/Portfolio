@@ -1,0 +1,56 @@
+/* 
+                                       Attribute Selectors 
+
+It is possible to style HTML elements that have specific attributes or attribute values.
+
+The [attribute] selector is used to select elements with a specified attribute.
+
+https://www.w3schools.com/css/css_attribute_selectors.asp 
+
+Selector	            Example	                    Example description
+[attribute]	            [target]	            Selects all elements with a target attribute
+[attribute=value]	    [target=_blank]	        Selects all elements with target="_blank"
+[attribute~=value]	    [title~=flower]	        Selects all elements with a title attribute containing the word "flower"
+[attribute|=value]	    [lang|=en]	            Selects all elements with a lang attribute value starting with "en"
+[attribute^=value]	    a[href^="https"]	    Selects every <a> element whose href attribute value begins with "https"
+[attribute$=value]	    a[href$=".pdf"]	        Selects every <a> element whose href attribute value ends with ".pdf"
+[attribute*=value]	    a[href*="w3schools"]	Selects every <a> element whose href attribute value contains the substring "w3schools"
+*/
+
+
+h1{
+    text-align: center;
+    color: brown;
+}
+
+h2[class=subtitle] {
+    color: greenyellow;
+}
+
+#attr1 a[target] {    /*The [attribute] selector is used to select elements with a specified attribute.*/
+  background-color: yellow;
+}
+
+#attr2 a[target="_blank"] {     /*The [attribute="value"] selector is used to select elements with a specified attribute and value.*/
+  background-color: rgb(43, 243, 250);
+}
+
+#attr3 [title~="eye"] {   /*The [attribute~="value"] selector is used to select elements with an attribute value containing a specified word.*/
+  border: 5px solid yellow;
+}
+
+#attr4 [class|=top] {     /*The [attribute|="value"] selector is used to select elements with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-).*/
+  background: yellow;
+}
+
+#attr5 [class^=top] {   /*The [attribute^="value"] selector is used to select elements with the specified attribute, whose value starts with the specified value.*/
+  background: yellow;
+}
+
+#attr6 [class$="test"] {      /*The [attribute$="value"] selector is used to select elements whose attribute value ends with a specified value.*/
+  background: yellow;
+}
+
+#attr7 [class*="te"] {     /*The [attribute*="value"] selector is used to select elements whose attribute value contains a specified value.*/
+  background: yellow;
+}
