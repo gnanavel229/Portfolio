@@ -18,6 +18,56 @@ Selector	            Example	                    Example description
 */
 
 
+/*Old*/
+h1{
+    text-align: center;
+}
+
+h2{
+    color: red;
+}
+
+.subtitle{
+    color: blue;
+}
+
+#services{  /*Specificity*/
+    color: green;
+}
+
+.button {
+  background-color: #8c8c8c !important; 
+  color: white !important;
+  padding: 5px !important;
+  border: 1px solid black !important; 
+}
+
+#myDiv a {
+  color: red;
+  background-color: yellow;  
+}
+
+h2:hover{
+  color: lightgreen;
+}
+
+li:nth-child(2){  /* Specificity (ul > li{....})*/
+  color: tomato;
+}
+
+li:only-child {   /* To style the element with Single count with different parent element*/
+  color: brown;
+}
+
+h2.attr{
+  color: orange;
+}
+
+h2:hover[class*="attr"] {
+  color: darkcyan;
+}
+
+/*Attribute Selectors*/
 h1{
     text-align: center;
     color: brown;
