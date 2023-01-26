@@ -19,6 +19,15 @@
             *	                            0	            0 (the universal selector is ignored)
 
                 element > class(.) > id(#) > inline-styling
+
+                CSS The !important Rule
+
+        What is !important?
+           The !important rule in CSS is used to add more importance to a property/value than normal.
+
+           In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!
+
+
 */
 h1{
     text-align: center;
@@ -34,6 +43,18 @@ h2{
 
 #services{  /*Specificity*/
     color: green;
+}
+
+.button {
+  background-color: #8c8c8c !important; 
+  color: white !important;
+  padding: 5px !important;
+  border: 1px solid black !important; 
+}
+
+#myDiv a {
+  color: red;
+  background-color: yellow;  
 }
 
 /*Pseudoselectors*/
